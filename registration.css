@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #19223d;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.registration-container {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 40px;
+    color: #19223d;
+    width: 500px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.8);
+}
+
+.registration-container h2 {
+    text-align: center;
+}
+
+.registration-container form {
+    margin-top: 20px;
+}
+
+.registration-container .form-label {
+    font-weight: bold;
+}
+
+.registration-container input[type="text"],
+.registration-container input[type="password"],
+.registration-container input[type="tel"], 
+.registration-container input[type="email"] { 
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-container button[type="submit"] {
+    background-color: #19223d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registration-container button[type="submit"]:hover {
+    background-color: #0f1630;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
